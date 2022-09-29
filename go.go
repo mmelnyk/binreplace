@@ -1,1 +1,1 @@
-﻿package binreplace
+package binreplace
