@@ -1,6 +1,6 @@
 # go.melnyk.org/binreplace
 [![License][license-img]][license] [![Actions Status][action-img]][action] [![PkgGoDev][pkggodev-img]][pkggodev] [![Go Report Card][goreport-img]][goreport] [![Coverage Status][codecov-img]][codecov]
-
+[![latest][latest-img]][latest-link]
 
 ## Contributing
 We encourage and support an active, healthy community of contributors &mdash;
@@ -20,3 +20,5 @@ the [code of conduct](CODE_OF_CONDUCT.md).
 [codecov]: https://codecov.io/gh/mmelnyk/binreplace
 [pkggodev-img]: https://pkg.go.dev/badge/go.melnyk.org/binreplace
 [pkggodev]: https://pkg.go.dev/go.melnyk.org/binreplace
+[latest-img]: https://img.shields.io/github/v/release/mmelnyk/binreplace
+[latest-link]: https://github.com/mmelnyk/binreplace/releases/latest
