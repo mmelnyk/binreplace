@@ -31,14 +31,14 @@ jobs:
           zip binreplace.zip bin/*
     - name: Pack binary
       if: matrix.go_os != 'windows'
-      run: zip awsic.zip bin/*
+      run: zip binreplace.zip bin/*
     - name: Upload Release Asset
       id: upload-release-asset
-      uses: actions/upload-release-asset@v1.0.1
+      uses: actions/upload-release-asset@v1.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./awsic.zip
-        asset_name: awsic-${{ matrix.go_arch }}-${{ matrix.go_os }}-${{github.event.release.tag_name}}.zip
+        asset_path: ./binreplace.zip
+        asset_name: binreplace-${{ matrix.go_arch }}-${{ matrix.go_os }}-${{github.event.release.tag_name}}.zip
         asset_content_type: application/zip
