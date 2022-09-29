@@ -16,7 +16,7 @@ the [code of conduct](CODE_OF_CONDUCT.md).
 [action]: ../../actions
 [goreport-img]: https://goreportcard.com/badge/go.melnyk.org/binreplace
 [goreport]: https://goreportcard.com/report/go.melnyk.org/binreplace
-[codecov-img]: https://codecov.io/gh/<path>/branch/master/graph/badge.svg
-[codecov]: https://codecov.io/gh/<path>
+[codecov-img]: https://codecov.io/gh/mmelnyk/binreplace/branch/master/graph/badge.svg
+[codecov]: https://codecov.io/gh/mmelnyk/binreplace
 [pkggodev-img]: https://pkg.go.dev/badge/go.melnyk.org/binreplace
 [pkggodev]: https://pkg.go.dev/go.melnyk.org/binreplace
