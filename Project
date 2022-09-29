@@ -1,0 +1,12 @@
+# Project parameters
+GOMODULE = go.melnyk.org/binreplace
+
+# List of directories with binaries code
+BINARIES = \
+	./cmd/binreplace
+
+# Docker registry host name
+DOCKER_REGISTRY=
+
+# Mapping docker files to required docker images
+DOCKER_IMAGE=
